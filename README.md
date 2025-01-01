@@ -24,7 +24,7 @@ You can use this for for Obsidian and should work on other .md files.  Because I
 
 If you run the program, it will present you with a dialog box, which is small and may not be focused. A picture of this box is below.  You will need to hit "Open Markdown File" to activate a GUI file selector.  You use the GUI file selector to find a file that has .png embedded images in it.
 
-The program is slow to load at first because it is compiled python, but once loaded, it is very quick to process a file.
+The program is slow to load at first because it is compiled python, but once loaded, is process and converts your current .md file page in less than a second.
 
 
 ![ProgramIcon](./README_display/Dialog2.jpg)
@@ -40,7 +40,7 @@ The program create a smaller version of the original file in the same directory 
 My current process flow is to create markdown files with docling, which creates embedded png files
 After this file is created, you can run MDpng2MDwebp on the newly created file and it will convert the images
 
-Savings is highly dependent on the original file and content, but here are two examples:
+Savings is highly dependent on the original file and content, but here are three examples:
 
 
 |                       | Original PDF | Docling .md | MDpng2MDwebp | Savings from PDF (%) |
