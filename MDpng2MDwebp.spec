@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['png2md.ico'],
+    icon=['nicon2.ico'],
 )

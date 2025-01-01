@@ -58,7 +58,7 @@ def process_markdown_file(file_path):
                 messagebox.showerror("Error", f"Failed to process an image: {str(e)}")
                 continue
 
-        new_file_path = os.path.splitext(file_path)[0] + 'WP.md'
+        new_file_path = os.path.splitext(file_path)[0] + '_Webp.md'
         with open(new_file_path, 'w', encoding='utf-8') as file:
             file.write(content)
 
@@ -78,7 +78,13 @@ def open_file_dialog():
 root = tk.Tk()
 root.title("Markdown Image Converter")
 
-open_button = tk.Button(root, text="Open Markdown File", command=open_file_dialog)
-open_button.pack(pady=20)
+# Set the window size to be twice as large
+root.geometry("400x200")
+
+# Create a custom font with larger size
+large_font = ("Helvetica", 14)
+
+open_button = tk.Button(root, text="Open Markdown File", command=open_file_dialog, font=large_font)
+open_button.pack(pady=40)
 
 root.mainloop()
