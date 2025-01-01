@@ -3,6 +3,9 @@
 The binary is called MDpng2MDwebp.exe and is in the dist folder.  Click on the dist folder so you can see the .exe file.  If you click on it, you will get a screen where you can download the file by hitting the download arrow on the right hand side.  
 
 ## Details
+
+Why do you want this program?  If you have a Docling .md file or if you have any embedded b64 .png in an .md file, this will convert the image to webp, saving a tremendous amount of storage.  You may be able to compress a PDF to be smaller than the original file, while keeping all the data you need for use or for you LLM.
+
 This is a quick and dirty utility to convert docling .md files that have png.b64 streams into webp.b64 strings.  This will make the file much smaller.  
 
 In my testing by re-encoding the PNG stream with a variable sized webp stream at 20%, you can save up to 80% space. However, validate if graphics are good enough after processing.
@@ -33,14 +36,11 @@ After this file is created, you can run MDpng2MDwebp on the newly created file a
 
 Savings is highly dependent on the original file and content, but here are two examples:
 
-**Owners Manual
-Original PDF:  1,513 KB
-Docling .md:     207 KB
-MDpng2MDwebp:     29 KB
 
-**Sell Side Report--Business Analysis with lots of Charts
-Original PDF:   1,172 KB
-Docling .md:    1,548 KB
-MDpng2MDwebp:     353 KB
+|                                 | Original PDF | Docling .md | MDpng2MDwebp | Savings from PDF (%) |
+| ------------------------------- | ------------ | ----------- | ------------ | -------------------- |
+| **Owners Manual**               | 1,513 KB     | 207 KB      | 29 KB        | 98.08%               |
+| **Business Report with Graphs** | 1,172 KB     | 1,548 KB    | 353 KB       | 69.87%               |
+
 
 
