@@ -35,6 +35,8 @@ I currently haven't purchased a cert, so you will see this when you run the prog
 
 The program create a smaller version of the original file in the same directory and adds a _Webp to the end of the file name for identification.
 
+**It does not delete the original file, so if you not longer need it, you will need to delete the original.**
+
 ## Savings
 
 My current process flow is to create markdown files with docling, which creates embedded png files
