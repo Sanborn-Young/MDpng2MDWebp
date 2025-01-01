@@ -41,10 +41,10 @@ After this file is created, you can run MDpng2MDwebp on the newly created file a
 Savings is highly dependent on the original file and content, but here are two examples:
 
 
-|                                 | Original PDF | Docling .md | MDpng2MDwebp | Savings from PDF (%) |
-| ------------------------------- | ------------ | ----------- | ------------ | -------------------- |
-| **Owners Manual**               | 1,513 KB     | 207 KB      | 29 KB        | 98.08%               |
-| **Business Report with Graphs** | 1,172 KB     | 1,548 KB    | 353 KB       | 69.87%               |
-
+|                       | Original PDF | Docling .md | MDpng2MDwebp | Savings from PDF (%) |
+| --------------------- | ------------ | ----------- | ------------ | -------------------- |
+| **Owners Manual**     | 1,513 KB     | 207 KB      | 29 KB        | 98.08%               |
+| **Graphic Report #1** | 1,172 KB     | 1,548 KB    | 353 KB       | 69.87%               |
+| **Graphic Report #2** | 1,619 KB     | 2,456 KB    | 414 KB       | 74.42%               |
 
 
