@@ -1,6 +1,10 @@
 ## Give It To Me Now
 
-The binary is called MDpng2MDwebp.exe and is in the dist folder.  Click on the dist folder so you can see the .exe file.  If you click on it, you will get a screen where you can download the file by hitting the download arrow on the right hand side.  
+The binary is called MDpng2MDwebp.exe and is in the dist folder.  Click on the dist folder so you can see the .exe file.  If you click on it, you will get a screen where you can download the "raw" file by hitting the download arrow on the right hand side.  
+
+I have not signed the .exe, so Windows or Windows Defender will complain the first time you run the program, and you'll need to hit the appropriate info box to get the option to run the program anyway.
+
+The initial launch of the program is very slow.
 
 ## Details
 
