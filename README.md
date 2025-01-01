@@ -1,19 +1,21 @@
 ## Give It To Me Now
 
-The binary is called MDpng2MDwebp.exe and is in the dist folder.  Click on the dist folder so you can see the .exe file.  If you click on it, you will get a screen where you can download the "raw" file by hitting the download arrow on the right hand side.  
+#### Down Loading and Running MDpng2MDwebp.exe
 
-I have not signed the .exe, so Windows or Windows Defender will complain the first time you run the program, and you'll need to hit the appropriate info box to get the option to run the program anyway.
+* Locate the executable: Find the MDpng2MDwebp.exe binary in the dist folder.
+* Access the executable: Click on the dist folder to view its contents, including the .exe file.
+* Download the executable: If you click on the file, you'll be taken to a screen where you can download the "raw" file by clicking the download arrow on the right-hand side.
+#### Important Notes
 
-The initial launch of the program is very slow.
+Unsigned executable: Since the .exe file is not signed, Windows or Windows Defender may display a warning when you first run the program. You'll need to navigate through the warning prompts to find the option to run the program anyway.
+
+Initial launch delay: Please be patient, as the program's initial launch may be slow.
 
 ## Details
 
-Why do you want this program?  If you have a Docling .md file or if you have any embedded b64 .png in an .md file, this will convert the image to webp, saving a tremendous amount of storage.  You may be able to compress a PDF to be smaller than the original file, while keeping all the data you need for use or for you LLM.
-
-This is a quick and dirty utility to convert docling .md files that have png.b64 streams into webp.b64 strings.  This will make the file much smaller.  
+Why do you want this program?  If you have a Docling .md file or if you have any embedded b64 .png in an .md file, this will convert the image to webp, saving a tremendous amount of storage.  You may be able to compress a PDF to be smaller than the original file, while keeping all the data you need for your use or for feeding an LLM.
 
 In my testing by re-encoding the PNG stream with a variable sized webp stream at 20%, you can save up to 80% space. However, validate if graphics are good enough after processing.
-
 
 You can use this for for Obsidian and should work on other .md files.  Because I'll most likely never touch this again, the executable is attached, and will not be put on a release.  If you download the binary, it should be completely self contained, and has no ability to change the config or the parameters.
 
