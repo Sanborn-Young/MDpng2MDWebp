@@ -20,5 +20,5 @@ The program is slow to run at first because it is compiled python, but once load
 
 ![ProgramIcon](./README_display/Dialog.jpg)
 
-The program create a smaller version of the original file in the same directory and adds a WD to the end of the file name for identification.
+The program create a smaller version of the original file in the same directory and adds a WP to the end of the file name for identification.
 
