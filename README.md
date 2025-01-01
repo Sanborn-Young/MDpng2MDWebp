@@ -5,7 +5,7 @@ The binary is called MDpng2MDwebp.exe and is in the dist folder.  Click on the d
 ## Details
 This is a quick and dirty utility to convert docling .md files that have png.b64 streams into webp.b64 strings.  This will make the file much smaller.  You can use this for for Obsidian and should work on other .md files.  Because I'll most likely never touch this again, the executable is attached, and will not be put on a release.  If you download the binary, it should be completely self contained, and has no ability to change the config or the parameters.
 
-![ProgramIcon](./README_display/Icon.jpeg)
+![ProgramIcon](./README_display/icon.jpg)
 
 
 If you run the program, it will present you with a dialog box.  You use the GUI file selector to find a file that has .png embedded images in it.  This is sterotypical of docling .md files.
