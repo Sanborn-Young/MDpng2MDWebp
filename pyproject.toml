@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mdpng2mdwebp"
+version = "0.1.0"
+description = "A script to convert PNG base64 images in a markdown file to WEBP format"
+authors = ["Sanborn-Young"]
+license = "GNU 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
